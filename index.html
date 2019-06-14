@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SuStrict</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="img/icons/horse.png">
+</head>
+
+<body>
+    <div id="app" >
+        
+        <nav class="main-nav">
+            <router-link to="/" exact>Home</router-link>
+            <router-link to="/about">About</router-link>
+            <router-link to="/email-app">Email</router-link>
+            <router-link to="/keep-app">Keep</router-link>
+        </nav>
+        
+        <router-view></router-view>
+
+        <footer>
+            Itamar&Omer-TheKings &copy; 2019
+        </footer>
+
+        <!-- <img src="img/somepic/kids.jpg"> -->
+    </div>
+
+    <script src="lib/jquery/jquery.min.js" ></script>
+    <script src="lib/vue/vue.js"></script>
+    <script src="lib/vue/vue-router.js"></script>
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
